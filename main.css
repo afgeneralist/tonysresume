@@ -1,0 +1,11 @@
+body * {
+  box-sizing: border-box;
+  font-family: 'Lato', 'Roboto', sans-serif;
+}
+
+
+.common {
+	border: 2px solid black;
+	height: 150px;
+	width: 150px;
+}
