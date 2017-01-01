@@ -4,49 +4,102 @@
   box-sizing: border-box;
 }
 
-section {
+body {
+	margin: 0 0;
 	width: 100%;
-	height: 55px;
 }
 
+/*design for welcome page*/
+.container {
+	width: 600px;
+	height: 100px;	
+	margin: 300px auto 300px auto;
+}
+
+.welcome {
+	-webkit-animation-duration: 3s;
+	-webkit-animation-delay: 1s;
+	background-color: #E92125;
+}
+
+.container a {
+	-webkit-animation-duration: 3s;
+	-webkit-animation-delay: 3s;
+	font-style: italic;
+}
+
+.container span {
+	-webkit-animation-duration: 3s;
+	-webkit-animation-delay: 6s;
+	font-style: italic;
+}
+
+.welcome h1 {
+	font-size: 55px;
+	font-style: italic;
+	text-align: center;
+	padding-top: 12px;
+}
+
+.logo {
+	width: 50px;
+	height: 50px;
+	position: relative;
+	top: 25px;
+	left: 30%;
+	border: 1px solid #545454;
+}
+
+/*this is the nav*/
+nav {
+	position: relative;
+	width: 100%;
+}
+
+nav a {
+	text-decoration: none;
+	padding: 5px;
+	color: #545454;
+	position: relative;
+	left: 65%;
+	top: 10px;
+	font-size: 15px;
+}
 
 .main {
 	background-image: url(images/bgimage-fabric.png);
-	background-repeat: repeat;
-	height: 800px;
+	
 }
 
 .content {
+	margin: 0 auto;
 	width: 800px;
-	position: relative;
-	left: 205px;
-}
-
-body {
-	margin: 0 0;
-
 }
 
 .abstract {
 	color: #A5A4A5;
+	padding-bottom: 100px;
 }
 
-.abstract h3 {
-	padding-top: 25px;
-}
-
-.abstract p {
-	color: black;
-	background: #c2ebef; //**greenbackground to text **/
-}
-
+/*this h3 header accounts for both the about me & experience page*/
 h3 {
+	padding-top: 105px;
 	color: #545454;
 	text-align: center;
 	font-size: 35px;
 	font-weight: bold;
 }
 
+.abstract p {
+	color: black;
+	background: white;
+	font-style: italic;
+	font-size: 20px;
+	padding: 5 auto 5 auto;
+}
+
+
+/*this is styling for the experience.html page*/
 .common {
 	border: 2px solid black;
 	height: 150px;
@@ -59,9 +112,10 @@ h3 {
 .common, .job {
 	text-align: center;
 	padding-top: 60px;
+	margin-bottom: 100px;
 }
 
 
 .common:hover {
-	background-color: yellow;
+	background-color: #E92125;
 }
