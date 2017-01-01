@@ -50,6 +50,11 @@ body {
 	border: 1px solid #545454;
 }
 
+#unicorn {
+	width: 150px;
+	height: 150px;
+}
+
 /*this is the nav*/
 nav {
 	position: relative;
